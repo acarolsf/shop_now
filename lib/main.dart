@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Shop',
       theme: ThemeData(
-        primaryColor: Colors.black,
+        primaryColor: Color.fromRGBO(255, 77, 154, 1),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: AuthScreen(),

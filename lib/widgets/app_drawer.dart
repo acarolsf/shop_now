@@ -27,7 +27,7 @@ class AppDrawer extends StatelessWidget {
             leading: SvgPicture.asset(
               "assets/icons/cart.svg",
               // By default our  icon color is white
-              color: Colors.black,
+              color: Colors.black54,
             ),
             title: Text('Carrinho'),
             onTap: () {
